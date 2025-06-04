@@ -2,27 +2,28 @@
 
 # EduPath – Career Discovery & Learning Roadmap
 
-EduPath adalah aplikasi web yang membantu pengguna menentukan jalur karier berdasarkan minat dan kemampuan melalui career quiz, lalu memberikan rekomendasi roadmap skill dan pembelajaran yang personal.
+Aplikasi web untuk membantu pengguna (pelajar, mahasiswa, fresh graduate) menemukan jalur karier dan rencana belajar berdasarkan minat dan skill.
 
-Proyek ini dibuat untuk **IDCamp 2024 Developer Challenge #2**.
+## 🔗 Link Aplikasi Live
 
-## 🔥 Fitur Utama
+https://id-camp-2024-developer-challenge-2.vercel.app/
 
-- 🎯 Career Quiz berbasis minat & kepribadian
-- 🗺️ Skill Roadmap interaktif sesuai hasil quiz
-- 📊 Dashboard Progress belajar
-- 💬 Forum diskusi antar pengguna
-- 📄 CV Generator otomatis
+## 💡 Fitur Utama
 
-## 🧑‍💻 Teknologi yang Digunakan
+- Career Quiz
+- Skill-based Learning Roadmap
+- Progress Dashboard
+- Forum Diskusi
+- CV Generator
 
-- Frontend: ReactJS (Vite)
-- Backend: Node.js + Express
-- Database: MongoDB
-- Deployment: Vercel
-- Design: Figma, Wireframe
+## ⚙️ Teknologi
 
-## 🧠 Meta Tag Verifikasi Dicoding
+- React + Vite
+- Tailwind CSS
+- Deploy di Vercel
 
+## 📄 Meta Tag Dicoding
+
+Terdapat di file `public/index.html`:
 ```html
-<meta name="dicoding:email" content="mohmustain78@gmail.com">
+<meta name="dicoding:email" content="mohmustain78@gmail.com" />
