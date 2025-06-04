@@ -1,11 +1,15 @@
-function App() {
+import React from 'react';
+import { UserProvider } from './context/UserContext';
+import CareerQuiz from './components/CareerQuiz';
+
+export default function App() {
   return (
-    <div style={{ padding: 20, fontFamily: 'Arial, sans-serif' }}>
-      <h1>EduPath – Career Discovery & Learning Roadmap</h1>
-      <p>Selamat datang di aplikasi EduPath! Mulai jelajahi kariermu sekarang.</p>
-    </div>
+    <UserProvider>
+      <div className="container mx-auto p-4">
+        <h1 className="text-3xl font-bold mb-4">Educourse Career</h1>
+        <CareerQuiz />
+        {/* Nanti tambah komponen lain di sini sesuai routing */}
+      </div>
+    </UserProvider>
   );
 }
-
-export default App;
-
